@@ -1,0 +1,373 @@
+@media only screen and (min-width: 1024px) {
+  .navDiv {
+    margin-left: 18rem;
+  }
+  .navDiv ul li {
+    margin-left: 1.5rem;
+  }
+  .home-body {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-start;
+    margin-bottom: 0;
+  }
+  .home-body .home {
+    flex: 50%;
+  }
+  .home-body .home-title {
+    font-size: 53px;
+    line-height: 66.25px;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+  }
+  .home-body .home-text {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 37.4px;
+  }
+  .home-body .btn-container {
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .home-body .btn-container a {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .home-body .img-flex {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .home-body .text-muted {
+    margin-top: 0px;
+    position: absolute;
+    bottom: 140px;
+    left: 80px;
+  }
+  .home-body .text-muted div h3 {
+    margin: 20px 10px;
+    font-size: 34px;
+    font-family: 700;
+    line-height: 20px;
+  }
+  .home-body .text-muted div span {
+    margin: 20px 10px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  #about .about-title {
+    text-align: center;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+  #about .about-heading-text {
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 2rem;
+  }
+  .about-body {
+    display: flex;
+    flex-flow: wrap row;
+    margin-bottom: 2rem;
+  }
+  .about-body .flex-left {
+    flex: 50%;
+  }
+  .about-body .flex-right {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #who-benefits h6 {
+    text-align: center;
+    width: 400px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+  #who-benefits .heading-text {
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 2rem;
+  }
+  .who-benefits-body .mycard-container {
+    clear: both;
+  }
+  .who-benefits-body .mycard-container .card {
+    float: left;
+    width: 50%;
+    margin-bottom: 0.5rem;
+  }
+  .who-benefits-body .mycard-container .card .card-body .card-title {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 42px;
+  }
+  .who-benefits-body .mycard-container .card .card-body .card-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .who-benefits-body .mycard-container .image-card {
+    float: right;
+    width: 50%;
+  }
+  .who-benefits-body .mycard-container .image-card img {
+    width: 555px;
+    height: 555px;
+    object-fit: contain;
+    padding: 40px;
+  }
+  .who-benefits-body .mycard-container .bottom-card {
+    float: left;
+    width: 50%;
+  }
+  .who-benefits-body .mycard-container .bottom-card ul li {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  #testimonials {
+    background: linear-gradient(to right, rgb(0, 65, 170));
+  }
+  #testimonials .testimonials-title {
+    text-align: center;
+    width: 400px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    position: relative;
+    bottom: 0;
+    left: 35%;
+  }
+  #testimonials .mycard-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  #testimonials .mycard-container .card {
+    width: 450px;
+    height: 300px;
+    margin: 1.5rem;
+  }
+  #testimonials .mycard-container .card .card-body .card-text {
+    text-align: center;
+    padding: 1rem;
+  }
+  #testimonials .mycard-container .card .card-body .card-title, #testimonials .mycard-container .card .card-body .card-subtitle {
+    text-align: center;
+    padding: 0.2rem;
+  }
+}
+ion-icon {
+  --ionicon-stroke-width: 3rem;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.navbar-brand {
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-body .home-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44.8px;
+  text-align: center;
+}
+.home-body .home-text {
+  color: #060C3C;
+  font-family: Droid "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  font-style: normal;
+}
+
+.btn-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.btn-container a {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0.7rem 2rem;
+}
+.btn-container .see-action {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.btn-container .see-action ion-icon {
+  --ionicon-stroke-width: 2rem;
+}
+
+.text-muted {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  align-items: center;
+}
+.text-muted div {
+  padding: 2px;
+  margin: 4px;
+}
+.text-muted div h3 {
+  font-size: 20px;
+  font-weight: 700px;
+  line-height: 22px;
+}
+.text-muted div span {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+#about .about-title {
+  font-size: 14px;
+  font-weight: 700;
+  width: 150px;
+}
+
+.about-heading-text {
+  font-size: 27px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 150%;
+}
+
+.card {
+  display: flex !important;
+  flex-flow: row wrap;
+}
+.card .card-icon {
+  padding: 15px;
+}
+.card .crd-body {
+  width: 20px;
+}
+
+#who-benefits .who-benefits-heading-text {
+  font-size: 27px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 150%;
+}
+
+.who-benefits-body .card-title {
+  font-size: 22px;
+  font-weight: 700;
+}
+.who-benefits-body .card-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+#testimonials .testimonials-title {
+  font-size: 14px;
+  font-weight: 700;
+  width: 170px;
+  transform: translateX(60%);
+}
+#testimonials .testimonials-heading-text {
+  font-size: 27px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 150%;
+}
+#testimonials .card {
+  height: auto;
+  margin: 1.5rem;
+}
+#testimonials .card .card-body .card-text {
+  text-align: center;
+  padding: 1rem;
+}
+#testimonials .card .card-body .card-title, #testimonials .card .card-body .card-subtitle {
+  text-align: center;
+  padding: 0.2rem;
+}
+#testimonials .clickable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+#testimonials .clickable-previous {
+  font-size: 1.5rem;
+}
+#testimonials .clickable-previous:hover {
+  color: rgb(10, 61, 230);
+}
+#testimonials .clickable-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#testimonials .clickable-icons div ion-icon {
+  margin: 0.2rem;
+  font-size: 10px;
+}
+#testimonials .clickable-next {
+  font-size: 1.5rem;
+}
+#testimonials .clickable-next:hover {
+  color: rgb(10, 61, 230);
+}
+
+#FAQs .FAQs-title {
+  font-size: 14px;
+  font-weight: 700;
+  width: 170px;
+}
+#FAQs .FAQs-heading-text {
+  font-size: 27px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 150%;
+}
+
+.footer .brand_footer {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+.footer .socials-icons a {
+  padding: 10px;
+}
+.footer div.title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/* JavaScript Files */
+
+/*# sourceMappingURL=main.css.map */

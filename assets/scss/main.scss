@@ -1,0 +1,215 @@
+@import './config';
+@import './responsive';
+
+ion-icon {
+    --ionicon-stroke-width: 3rem;
+    font-size: 30px;
+    margin-right: 5px;
+}
+.navbar-brand {
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: center;
+    align-items: center;
+}
+.home-body .home {
+    &-title {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 44.8px;
+        text-align: center;
+    }
+    &-text {
+        color: #060C3C;
+        font-family: Droid 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28.8px;
+        font-style: normal;
+    }
+}
+
+.btn-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+    a {
+        width: 100%;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 0.7rem 2rem;
+    }
+    .see-action {
+        ion-icon {
+            --ionicon-stroke-width: 2rem;
+        }
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.text-muted {
+   display: flex;
+   flex-flow: wrap row;
+   justify-content: center;
+   align-items: center;
+   div {
+    padding: 2px;
+    margin: 4px;
+   }
+   div h3 {
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 22px;
+   }
+   div span {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+   }
+}
+
+#about {
+    .about-title {
+        font-size: 14px;
+        font-weight: 700;
+        width: 150px; 
+    }
+}
+.about-heading-text{
+    font-size: 27px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 150%;
+}
+.card{
+    display: flex !important;
+    flex-flow: row wrap;
+    .card-icon {
+        padding: 15px;
+        
+    }
+    .crd-body {
+        width: 20px;
+    }
+}
+
+#who-benefits {
+    .who-benefits-heading-text{
+        font-size: 27px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 150%;
+    }
+}
+.who-benefits-body {
+    .card-title {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .card-text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+}
+
+
+#testimonials {
+    .testimonials-title {
+        font-size: 14px;
+        font-weight: 700;
+        width: 170px;
+        transform: translateX(60%);   
+    }
+    .testimonials-heading-text{
+        font-size: 27px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 150%;
+    }
+
+    .card {
+        height: auto;
+        margin: 1.5rem;
+        .card-body .card-text {
+            text-align: center;
+            padding: 1rem;
+        }
+        .card-body .card-title, .card-body .card-subtitle {
+            text-align: center;
+            padding: 0.2rem;
+        }
+    }
+    .clickable {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        &-previous {
+            font-size: 1.5rem;
+            &:hover {
+                color: rgb(10, 61, 230);
+            }
+        }
+        &-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            div ion-icon {
+                margin: 0.2rem;
+                font-size: 10px;
+            }
+        }
+        &-next {
+            font-size: 1.5rem;
+            &:hover {
+                color: rgb(10, 61, 230);
+            }
+        }
+    }
+}
+
+
+#FAQs {
+    .FAQs-title {
+        font-size: 14px;
+        font-weight: 700;
+        width: 170px;  
+    }
+    .FAQs-heading-text{
+        font-size: 27px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 150%;
+    }
+}
+
+
+.footer {
+    .brand_footer {
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+    }
+    .socials-icons a {
+        padding: 10px;
+    }
+    div.title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+/* JavaScript Files */
+

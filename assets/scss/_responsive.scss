@@ -1,0 +1,189 @@
+@include media-lg {
+    .navDiv {
+        margin-left: 18rem;
+        ul li {
+            margin-left: 1.5rem;
+        }
+    }
+    .home-body {
+        display: flex;
+        flex-flow: wrap row;
+        justify-content: flex-start;
+        margin-bottom: 0;
+        .home {
+            flex: 50%;
+            &-title {
+                font-size: 53px;
+                line-height: 66.25px;
+                margin-bottom: 1.5rem;
+                font-weight: 700;
+                text-align: left;
+            }
+            &-text {
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 37.4px;
+            }
+        }
+        .btn-container {
+            width: 100%;
+            margin-top: 3rem;
+            margin-bottom: 0;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            a {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+        }
+        .img-flex {
+            flex: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+        .text-muted {
+            margin-top: 0px;
+            position: absolute;
+            bottom: 140px;
+            left: 80px;
+            div {
+                h3 {
+                    margin: 20px 10px;
+                    font-size: 34px;
+                    font-family: 700;
+                    line-height: 20px;
+                }
+                span {
+                    margin: 20px 10px;
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+
+    #about {
+            .about-title{
+                text-align: center;
+                width: 200px;
+                font-size: 16px;
+                font-weight: 700;
+                margin-bottom: 2rem;
+            }
+            .about-heading-text {
+                font-size: 43px;
+                font-weight: 700;
+                line-height: 64px;
+                margin-bottom: 2rem;
+            }
+    }
+    .about-body {
+        display: flex;
+        flex-flow: wrap row;
+        margin-bottom: 2rem;
+        .flex-left {
+            flex: 50%;
+        }
+        .flex-right {
+            flex: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    #who-benefits {
+        h6{
+            text-align: center;
+            width: 400px;
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 2rem;
+        }
+        .heading-text {
+            font-size: 43px;
+            font-weight: 700;
+            line-height: 64px;
+            margin-bottom: 2rem;
+        }
+
+    }
+    .who-benefits-body {
+        .mycard-container {
+            clear: both;
+            .card {
+                float: left;
+                width: 50%;
+                margin-bottom: 0.5rem;
+                .card-body .card-title {
+                    font-size: 34px;
+                    font-weight: 700;
+                    line-height: 42px;
+                }
+                .card-body .card-text {
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 30px;
+                }
+                
+            }
+            .image-card {
+                float: right;
+                width: 50%;
+                img {
+                    width: 555px;
+                    height: 555px;
+                    object-fit: contain;
+                    padding: 40px;
+                }
+            }
+            .bottom-card {
+                float: left;
+                width: 50%;
+                ul li {
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 22px;
+                }
+            }
+        }
+        
+    }
+
+    #testimonials {
+        background: linear-gradient(to right, rgba(0, 65, 170, 1));
+        .testimonials-title {
+            text-align: center;
+            width: 400px;
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 2rem;
+            position: relative;
+            bottom: 0;
+            left: 35%;
+        }
+        .mycard-container {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            .card {
+                width: 450px;
+                height: 300px;
+                margin: 1.5rem;
+                .card-body .card-text {
+                    text-align: center;
+                    padding: 1rem;
+                }
+                .card-body .card-title, .card-body .card-subtitle {
+                    text-align: center;
+                    padding: 0.2rem;
+                }
+            }
+        }
+    }
+}
